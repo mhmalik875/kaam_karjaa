@@ -1,12 +1,12 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Forgot Password</title>
-	<link rel="stylesheet" href="css/forgot.css" />
-	<link rel="stylesheet" href="css/index.css">
-	<meta name ="viewport" content="width=device-width,initial-scale = 1">
 
+	<link rel="stylesheet" href="css/index.css">
+	<link rel ="stylesheet" href = "css/signup.css">
+	<meta name ="viewport" content="width=device-width,initial-scale = 1">
 </head>
 
 <header>
@@ -22,7 +22,6 @@
 			<ul>
 				<li><a class ="link" href="index.html"> Home </a></li>
 				<li><a class ="link" href="signin.html"> Sign In </a></li>
-				<li><a class ="link" href="signup.html"> Sign Up </a></li>
 				<li><a class ="link" href="about.html"> About Us </a></li>
 				<li><a class ="link" href="contact.html"> Contact Us </a></li>
 
@@ -33,25 +32,38 @@
 </header>
 
 <body>
-	
-	<div class="box">
-	
-		<div class="inner-box">
-		
-		<form action="signin.html">
-		
-			<h3>Change Your Password.</h3>
-		
-			<input type="email" name="email" placeholder="Email Address" required/>
-			<input type="password" name="pass" placeholder="Old Password" required/>
-			<input type="password" name="pass" placeholder="New Password" required/>
-			<input type="submit" value="Save Changes" >
-		
+
+
+<div class  = "contact-section">
+	<div class="login_box">
+		<img src="img/avatar.png" class="avatar">
+
+
+
+		<h1>    Forgot Password    </h1>
+		<form class="contact-form" action ="contact.html" method = post>
+			<p> Username </p>
+			<input type="text"  class = "form-control" placeholder= "Enter Username" required>
+			<p> New Password </p>
+			<input type="password" class="form-control" placeholder="Enter New Password" required>
+			<p> Confirm Password </p>
+			<input type="text"  class = "form-control" placeholder= "Re-enter Password" required>
+
+			<input type="submit" class = "contact-form-btn" value ="Change Password">
+			<a class="link" href="index.html">
+			</a>
 		</form>
-		
-		</div>
-	
+
+
 	</div>
-	
+
+
 </body>
+
+<footer class="fo">
+	<p>Developed by Muhammad Tanzeel -Ur- Rehman </p>
+
+	<p> <br>Copyrights &copy; 2019 All rights reserved. </p>
+</footer>
+
 </html>

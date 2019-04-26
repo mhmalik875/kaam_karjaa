@@ -7,54 +7,54 @@
     padding-top: 20px;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/bg.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1)),url("../img/bg.jpg");
     background-size: cover;
 
 }
 nav{
     width: 100%;
-    height: 70px;
+    height: 60px;
     background-color: #0005;
-
+    position: fixed;
 }
 header{
 
-    height: 90vh;
+    height: 80vh;
 }
 ul{
 
     float: right;
     list-style-type:none;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .fo
 
 {
-    height: 10vh;
-    background-color: brown;
+    height: 30vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("../img/foo.jpg");
 }
 ul li{
-
     display:inline-block;
 }
 ul li a{
     text-decoration: none;
-    color: whitesmoke;
-    padding: 5px 20px;
+    color: khaki;
+    padding: 0px 20px;
     border:1px solid transparent;
-    transition: 0.4s ease;
+    transition: 0.3s ease;
 }
 ul li a:hover
 {
-    background-color: #33b5e5;
+    background-color: #ffc107;
+    border-radius: 5px;
     color: #000;
 }
 .logo img{
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 7px;
     float:left;
     position: fixed;
-    width:10em;
+    width:20em;
     height: 3em;
 }
 .title{
@@ -92,19 +92,4 @@ ul li a:hover
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
-}
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
 }

@@ -5,7 +5,7 @@
     <title>Contact Us</title>
 
     <link rel="stylesheet" href="css/index.css">
-    <link rel ="stylesheet" href = "css/contact.css">
+    <link rel ="stylesheet" href = "css/signup.css">
     <meta name ="viewport" content="width=device-width,initial-scale = 1">
 </head>
 
@@ -22,7 +22,6 @@
             <ul>
                 <li><a class ="link" href="index.html"> Home </a></li>
                 <li><a class ="link" href="signin.html"> Sign In </a></li>
-                <li><a class ="link" href="signup.html"> Sign Up </a></li>
                 <li><a class ="link" href="about.html"> About Us </a></li>
                 <li><a class ="link" href="contact.html"> Contact Us </a></li>
 
@@ -36,18 +35,25 @@
 
 
 <div class  = "contact-section">
+    <div class="login_box">
+        <img src="img/avatar.png" class="avatar">
+
+
 
  <h1>    Contact Us         </h1>
  <form class="contact-form" action ="contact.html" method = post>
+     <p> Full Name </p>
+     <input type="text"  class = "form-control" placeholder= " Enter Full Name" required>
+     <p> Email Address </p><br>
+     <input type="email" class="form-control" placeholder="Enter Email" required>
+     <p> Phone Number </p>
+     <input type="text"  class = "form-control" placeholder= " Enter Phone" required>
 
-     <input type="text"  class = "contact-form-text" placeholder= " Your Name" required>
-     <input type="email"  class = "contact-form-text" placeholder=" Your Email" required>
-     <input type="text"  class = "contact-form-text" placeholder= " Your Phone" required>
-
+     <p> Message </p><br>
      <textarea class ="contact-form-text" placeholder="Your Message" required> </textarea>
+     <br><br><br>
      <input type="submit" class = "contact-form-btn" value ="Send">
      <a class="link" href="index.html">
-     <input type="button" class = "contact-form-back" value = "Go Back" >
  </a>
  </form>
 
@@ -56,4 +62,11 @@
 
 
 </body>
+
+<footer class="fo">
+    <p>Developed by Muhammad Tanzeel -Ur- Rehman </p>
+
+    <p> <br>Copyrights &copy; 2019 All rights reserved. </p>
+</footer>
+
 </html>
