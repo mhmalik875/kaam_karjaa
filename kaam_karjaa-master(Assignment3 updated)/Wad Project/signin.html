@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Sign In</title>
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name ="viewport" content="width=device-width,initial-scale = 1">
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="login">
+    <meta name="author" content="Muhammad Tanzeel - Ur- Rehman, Muhammad Hasssan Malik">
+    <meta name="keywords" content="signin,login">
+</head>
+
+<header>
+
+
+    <div id="main">
+        <div class =" logo">
+            <img src="img/logo.png">
+
+        </div>
+
+        <nav>
+            <ul>
+                <li><a class ="link" href="index.html"> Home </a></li>
+                <li><a class ="link" href="signup.html"> Sign Up </a></li>
+
+                <li><a class ="link" href="signin.html"> Sign In </a></li>
+                <li><a class ="link" href="about.html"> About Us </a></li>
+                <li><a class ="link" href="contact.html"> Contact Us </a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+</header>
+
+<body>
+    <div class="login_box">
+    <img src="img/avatar.png" class="avatar">
+        <h1>Sign In</h1>
+        <form action="index.html">
+            <p>Username</p>
+            <input type="text" name="" pattern="^[A-Za-z0-9_]{1,20}$" title="maximum 20 characters and only underscore are allowed " placeholder="Enter Username" required>
+            <p>Password</p>
+            <input type="password"   pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" title="UpperCase, LowerCase, Number/SpecialChar and min 8 Chars"  placeholder="Enter Password" required>
+
+            <input type="submit" name="" value="Login">
+            <a class="link" href="forgot.html">Forget your password?</a><br>
+            <a class="link" href="signup.html">Create an account?</a>
+        </form>
+
+    </div>
+
+</body>
+
+<footer class="fo">
+    <p>Developed by Muhammad Tanzeel -Ur- Rehman & Muhammad Hassan Malik</p>
+
+    <p> <br>Copyrights &copy; 2019 All rights reserved. </p>
+</footer>
+
+</html>
