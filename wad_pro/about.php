@@ -27,8 +27,14 @@
 			<link rel="stylesheet" href="css/animate.min.css">
 			<link rel="stylesheet" href="css/owl.carousel.css">
 			<link rel="stylesheet" href="css/main.css">
+
+        <link href="css1" rel="stylesheet">
+        <link href="css1/bootstrap.min.css" rel="stylesheet">
+        <link href="css1/bootstrap-datetimepicker.min.css" rel="stylesheet">
+        <link href="css1/flexslider.css" rel="stylesheet">
+        <link href="css1/templatemo-style.css" rel="stylesheet">
 		</head>
-		<body>	
+		<body>
 			  <header id="header" id="home">
 			    <div class="container main-menu">
 			    	<div class="row align-items-center justify-content-between d-flex">
@@ -200,9 +206,41 @@
 			<!-- Start feedback Area -->
 
 			<!-- End feedback Area -->
-				<br><br><br>
-			<!-- start footer Area -->
-			  <footer class="footer-area section-gap">
+
+
+                  <div class="row">
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                          <div class="tm-about-box-1">
+                              <a href="#"><img src="img/img2.jpg" alt="img" class="tm-about-box-1-img"></a>
+                              <h3 class="tm-about-box-1-title">Muhammad Tanzeel</h3>
+                              <div class="gray-text">
+                                  <a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
+                                  <a href="https://www.facebook.com/ahmadarain2" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
+                                  <a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
+                                  <a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                          <div class="tm-about-box-1">
+                              <a href="#"><img src="img/img23.jpg" alt="img" class="tm-about-box-1-img"></a>
+                              <h3 class="tm-about-box-1-title">Hassan Malik </h3>
+                              <div class="gray-text">
+                                  <a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
+                                  <a href="https://www.facebook.com/rashid.wattoo.37" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
+                                  <a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
+                                  <a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+
+
+
+
+              <footer class="footer-area section-gap">
 				  <div class="container">
 					  <div class="row">
 						  <div class="col-lg-5 col-md-6 col-sm-6">
