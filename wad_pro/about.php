@@ -215,7 +215,7 @@
                               <h3 class="tm-about-box-1-title">Muhammad Tanzeel</h3>
                               <div class="gray-text">
                                   <a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-                                  <a href="https://www.facebook.com/ahmadarain2" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
+                                  <a href="https://www.facebook.com/miantani204" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
                                   <a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
                                   <a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
                               </div>
@@ -227,7 +227,7 @@
                               <h3 class="tm-about-box-1-title">Hassan Malik </h3>
                               <div class="gray-text">
                                   <a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-                                  <a href="https://www.facebook.com/rashid.wattoo.37" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
+                                  <a href="https://www.facebook.com/mhmalik875" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
                                   <a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
                                   <a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
                               </div>
