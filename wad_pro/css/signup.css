@@ -1,0 +1,262 @@
+
+
+
+textarea.contact-form-text{
+    resize:none;
+    height:73px;
+    width: 360px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login_box{
+    width: 467px;
+    height: auto;
+    margin-top: 8px;
+    background: #000000b5;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 46px 33px 10px 30px;
+}
+.login_box12{
+    width: 467px;
+    height: 648px;
+    margin-top: 38px;
+    background: #000000b5;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 45px 37px 17px 35px;
+}
+.avatar1{
+    width: 85px;
+    height: 75px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: calc(50% - 50px);
+}
+.avatar{
+    width: 85px;
+    height: 75px;
+    border-radius: 50%;
+    position: absolute;
+    top: -35px;
+    left: calc(50% - 50px);
+}
+
+h8{
+    margin: 0;
+    padding: 0 0 21px;
+    text-align: center;
+    font-size: 15px;
+}
+.login_box12 p{
+
+                  margin: 0;
+                  padding: 0;
+                  font-weight: bold;
+              }
+.login_box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+
+
+.login_box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login_box12 input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+select{
+    padding:5px;
+    widht:32%;
+    border-radius:5px;
+}
+
+.login_box input[type="radio"]
+{
+    width: 60px;
+    height: 15px;
+}
+.login_box12 input[type="radio"]
+{
+    width: 60px;
+    height: 15px;
+}
+
+.login_box12 input[type="email"]
+{
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login_box input[type="email"]
+{
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login_box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login_box12 input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login_box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login_box12 input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login_box input[type="submit"]:hover
+{
+    cursor: pointer;
+    transition: 0.6s;
+    background: red;
+    color: #fff;
+}
+
+.login_box12 input[type="submit"]:hover
+{
+    cursor: pointer;
+    transition: 0.6s;
+    background: red;
+    color: #fff;
+}
+h5{
+    margin: 0;
+    padding: 24px 16px 2px;
+    text-align: center;
+    font-size: 22px;
+}
+.login_box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+
+.login_box a:hover
+{
+    color: #ffc107;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
